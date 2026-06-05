@@ -1,0 +1,80 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:rgba(255,255,255,0.05);
+}
+
+header h1{
+    font-size:3rem;
+    color:#38bdf8;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+section{
+    max-width:900px;
+    margin:30px auto;
+    padding:25px;
+    background:rgba(255,255,255,0.08);
+    border-radius:15px;
+}
+
+h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin:8px 0;
+}
+
+#projects li{
+    background:#1e40af;
+    margin:10px 0;
+    padding:10px;
+    border-radius:8px;
+    list-style:none;
+}
+
+#contact{
+    text-align:center;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2rem;
+    }
+
+    section{
+        margin:15px;
+    }
+}
+ .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
